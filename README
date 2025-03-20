@@ -1,0 +1,7 @@
+README - To-Do List API
+Este é um guia passo a passo para configurar, executar e solucionar problemas do projeto To-Do List API , que utiliza Supabase como banco de dados, Docker para containerização e Python com FastAPI como backend.
+
+Requisitos
+1. Python 3.11+
+2. Docker e Docker Compose
+3. Supabase (conta ativa e projeto criado)
