@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+    command: >
+      sh -c "export PYTHONPATH=/app && uvicorn src.main:app --host 0.0.0.0 --port 8000"
